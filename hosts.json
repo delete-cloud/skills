@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lathe-cli/kitup/main/spec/hosts.schema.json",
+  "schemaVersion": 1,
+  "hosts": [
+    {
+      "id": "kimi-cli",
+      "displayName": "Kimi Code CLI",
+      "projectSkillsDirs": [".kimi-code/skills", ".agents/skills"],
+      "userSkillsDirs": ["~/.kimi-code/skills", "~/.agents/skills"],
+      "detect": ["~/.kimi-code"],
+      "status": "community",
+      "notes": [
+        "Local override 2026-09-08: kitup upstream table predates the official",
+        "Kimi Code user skills dir ~/.kimi-code/skills; see",
+        "https://www.kimi.com/code/docs/en/kimi-code-cli/customization/skills.html"
+      ],
+      "aliases": ["kimi-code-cli"]
+    },
+    {
+      "id": "codex",
+      "displayName": "Codex",
+      "projectSkillsDirs": [".agents/skills"],
+      "userSkillsDirs": ["~/.codex/skills", "~/.agents/skills"],
+      "detect": ["~/.codex"],
+      "status": "verified",
+      "notes": ["Native dir first; ~/.agents/skills kept as compatibility root."]
+    }
+  ]
+}
