@@ -12,6 +12,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | [production-project-iteration](skills/production-project-iteration/SKILL.md) | 非琐碎项目变更闭环：需求定界 → 受限委派 → 独立验证 → 受控部署 → 线上验收（PR/CI/GitOps/生产） |
 | [confer-review](skills/confer-review/SKILL.md) | confer MCP 多席位评审编排：席位花名册（swe-2-max/grok-4.7/gpt-6-astra/opus-5-5）、消息模式、claude 席位失败模式与 fallback |
 | [create-pr-with-evidence](skills/create-pr-with-evidence/SKILL.md) | 创建带证据的 PR：精确变更范围（base...head）、架构/行为图、风险映射与 UI 前后截图（vendored from [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill), MIT） |
+| [create-issue-with-evidence](skills/create-issue-with-evidence/SKILL.md) | 创建带证据的 issue：已验证的问题陈述、可复现步骤，开源项目附代码定位与修复建议 |
 
 ## Install
 
