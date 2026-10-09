@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Issue With Evidence"
+  short_description: "File a bug report with reproduction and code evidence"
+  default_prompt: "Use $create-issue-with-evidence to draft and file an issue for the bug I found."

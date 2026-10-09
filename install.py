@@ -29,7 +29,12 @@ from kitup import (
 
 OWNER = "delete-cloud"
 REPO = "skills"
-SKILLS = ["ops-verification-gate", "production-project-iteration", "create-pr-with-evidence"]
+SKILLS = [
+    "ops-verification-gate",
+    "production-project-iteration",
+    "create-pr-with-evidence",
+    "create-issue-with-evidence",
+]
 AGENTS = ["kimi-cli", "codex", "devin"]  # kimi-cli needs the hosts.json override below
 APP_ID = "nmem"
 
