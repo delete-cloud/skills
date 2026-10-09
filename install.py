@@ -7,7 +7,7 @@ metadata. Re-running this script updates kitup-owned installs in place.
 
 Usage:
     pip install kitup-sdk
-    python3 install.py            # install/update both skills
+    python3 install.py            # install/update all skills
     python3 install.py --dry-run  # preview targets
     python3 install.py --ref v1   # pin a tag/branch instead of main
 """
@@ -29,8 +29,8 @@ from kitup import (
 
 OWNER = "delete-cloud"
 REPO = "skills"
-SKILLS = ["ops-verification-gate", "production-project-iteration"]
-AGENTS = ["kimi-cli", "codex"]  # kimi-cli needs the hosts.json override below
+SKILLS = ["ops-verification-gate", "production-project-iteration", "create-pr-with-evidence"]
+AGENTS = ["kimi-cli", "codex", "devin"]  # kimi-cli needs the hosts.json override below
 APP_ID = "nmem"
 
 REPO_ROOT = Path(__file__).resolve().parent

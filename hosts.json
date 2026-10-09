@@ -24,6 +24,20 @@
       "detect": ["~/.codex"],
       "status": "verified",
       "notes": ["Native dir first; ~/.agents/skills kept as compatibility root."]
+    },
+    {
+      "id": "devin",
+      "displayName": "Devin",
+      "projectSkillsDirs": [".devin/skills", ".agents/skills"],
+      "userSkillsDirs": ["~/.config/devin/skills", "~/.agents/skills"],
+      "detect": ["~/.config/devin"],
+      "status": "verified",
+      "notes": [
+        "Mirrors kitup built-in devin host (~/.config/devin/skills), plus",
+        "~/.agents/skills as fallback; needed here because hosts_file replaces",
+        "the built-in table. Devin reads both dirs (docs.extensibility/skills).",
+        "Covers Devin sessions launched via lody."
+      ]
     }
   ]
 }
