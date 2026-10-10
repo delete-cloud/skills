@@ -6,10 +6,13 @@ github provenance (owner/repo/path/resolvedCommit) in their .kitup.json
 metadata. Re-running this script updates kitup-owned installs in place.
 
 Usage:
-    pip install kitup-sdk
-    python3 install.py            # install/update all skills
-    python3 install.py --dry-run  # preview targets
-    python3 install.py --ref v1   # pin a tag/branch instead of main
+    uv run --with kitup-sdk python3 install.py            # install/update all skills
+    uv run --with kitup-sdk python3 install.py --dry-run  # preview targets
+    uv run --with kitup-sdk python3 install.py --ref v1   # pin a tag instead of main
+
+    (pip install kitup-sdk && python3 install.py works too, but prefer uv.)
+    Install from main after merging; installing from a PR branch leaves a
+    stale ref in .kitup.json provenance once the branch is deleted.
 """
 
 from __future__ import annotations
