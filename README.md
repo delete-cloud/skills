@@ -21,11 +21,20 @@ Requires Python 3 and a network route to public GitHub (kitup fetches via
 this repository must stay public).
 
 ```sh
-pip install kitup-sdk
-python3 install.py            # install or update all skills
-python3 install.py --dry-run  # preview target directories
-python3 install.py --ref v1   # pin a tag instead of main
+uv run --with kitup-sdk python3 install.py            # install or update all skills
+uv run --with kitup-sdk python3 install.py --dry-run  # preview target directories
+uv run --with kitup-sdk python3 install.py --ref v1   # pin a tag instead of main
 ```
+
+Prefer `uv` over `pip` on every machine; only fall back to
+`pip install kitup-sdk && python3 install.py` when uv is unavailable.
+
+Workflow: install from `main` only, after PRs merge. Installing from a
+PR branch (`--ref <branch>`) records that branch in each installed
+copy's `.kitup.json` provenance, and deleting the branch leaves a stale
+ref — kitup will not rewrite it on a same-hash reinstall. To preview a
+skill before merge, copy the skill directory into a skills dir manually
+instead.
 
 Targets (user scope), per `hosts.json` and kitup's built-in host table:
 
