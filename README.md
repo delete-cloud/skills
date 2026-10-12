@@ -1,5 +1,7 @@
 # skills
 
+English | [中文](README.zh-CN.md)
+
 Personal agent skillhub. Each skill is a standard Agent Skill directory
 (`SKILL.md` with YAML frontmatter) installed into local agent skill
 directories with [kitup](https://github.com/lathe-cli/kitup).
@@ -8,12 +10,12 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 
 | Skill | Description |
 | --- | --- |
-| [ops-verification-gate](skills/ops-verification-gate/SKILL.md) | 高风险运维事件门禁：只读诊断 → 明确授权 → 单一最小变更 → 可回滚执行 → 独立真实状态验收 |
-| [production-project-iteration](skills/production-project-iteration/SKILL.md) | 非琐碎项目变更闭环：需求定界 → 受限委派 → 独立验证 → 受控部署 → 线上验收（PR/CI/GitOps/生产） |
-| [confer-review](skills/confer-review/SKILL.md) | confer MCP 多席位评审编排：席位花名册（swe-2-max/grok-4.7/gpt-6-astra/opus-5-5）、消息模式、claude 席位失败模式与 fallback |
-| [create-pr-with-evidence](skills/create-pr-with-evidence/SKILL.md) | 创建带证据的 PR：精确变更范围（base...head）、架构/行为图、风险映射与 UI 前后截图（vendored from [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill), MIT） |
-| [create-issue-with-evidence](skills/create-issue-with-evidence/SKILL.md) | 创建带证据的 issue：已验证的问题陈述、可复现步骤，开源项目附代码定位与修复建议 |
-| [teaching-assistant](skills/teaching-assistant/SKILL.md) | 助教模式而非代码生成器：苏格拉底式提问、提示优先于答案、2-5 行微示例，适用于课程作业、教材/课程学习或辅导模式 |
+| [ops-verification-gate](skills/ops-verification-gate/SKILL.md) | High-risk ops-event gate: read-only diagnosis → explicit authorization → single minimal change → rollback-capable execution → independent real-state acceptance |
+| [production-project-iteration](skills/production-project-iteration/SKILL.md) | Closed loop for non-trivial project changes: scope definition → constrained delegation → independent verification → controlled deployment → production acceptance (PR/CI/GitOps/production) |
+| [confer-review](skills/confer-review/SKILL.md) | confer MCP multi-seat review orchestration: seat roster (swe-2-max/grok-4.7/gpt-6-astra/opus-5-5), message patterns, claude seat failure modes and fallbacks |
+| [create-pr-with-evidence](skills/create-pr-with-evidence/SKILL.md) | Create evidence-backed PRs: precise change range (base...head), architecture/behavior diagrams, risk mapping, and UI before/after screenshots (vendored from [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill), MIT) |
+| [create-issue-with-evidence](skills/create-issue-with-evidence/SKILL.md) | Create evidence-backed issues: verified problem statement, reproducible steps, plus code locations and a suggested fix for open-source projects |
+| [teaching-assistant](skills/teaching-assistant/SKILL.md) | Teaching-assistant mode, not a code generator: Socratic questioning, hints over answers, 2-5 line micro-examples; for coursework, textbook/course study, or tutor mode |
 
 ## Install
 
