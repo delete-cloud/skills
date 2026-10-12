@@ -37,6 +37,7 @@ SKILLS = [
     "production-project-iteration",
     "create-pr-with-evidence",
     "create-issue-with-evidence",
+    "teaching-assistant",
 ]
 AGENTS = ["kimi-cli", "codex", "devin"]  # kimi-cli needs the hosts.json override below
 APP_ID = "nmem"
