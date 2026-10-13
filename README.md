@@ -12,6 +12,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | --- | --- |
 | [ops-verification-gate](skills/ops-verification-gate/SKILL.md) | High-risk ops-event gate: read-only diagnosis → explicit authorization → single minimal change → rollback-capable execution → independent real-state acceptance |
 | [production-project-iteration](skills/production-project-iteration/SKILL.md) | Closed loop for non-trivial project changes: scope definition → constrained delegation → independent verification → controlled deployment → production acceptance (PR/CI/GitOps/production) |
+| [e2e-review-evidence](skills/e2e-review-evidence/SKILL.md) | Verify e2e coverage and PR review conclusions: real versus substitute paths, execution evidence, failure diagnosis, and project-specific review gates |
 | [confer-review](skills/confer-review/SKILL.md) | confer MCP multi-seat review orchestration: seat roster (swe-2-max/grok-4.7/gpt-6-astra/opus-5-5), message patterns, claude seat failure modes and fallbacks |
 | [create-pr-with-evidence](skills/create-pr-with-evidence/SKILL.md) | Create evidence-backed PRs: precise change range (base...head), architecture/behavior diagrams, risk mapping, and UI before/after screenshots (vendored from [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill), MIT) |
 | [create-issue-with-evidence](skills/create-issue-with-evidence/SKILL.md) | Create evidence-backed issues: verified problem statement, reproducible steps, plus code locations and a suggested fix for open-source projects |

@@ -1,0 +1,4 @@
+interface:
+  display_name: "E2E 与 PR Review 证据核验"
+  short_description: "核对端到端测试的真实路径、执行证据与 PR 审查边界及收口条件"
+  default_prompt: "用 $e2e-review-evidence 核对这次变更的 e2e 覆盖、测试证据和 PR review 结论，明确已证明与未验证的范围。"
