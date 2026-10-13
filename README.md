@@ -17,6 +17,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | [create-pr-with-evidence](skills/create-pr-with-evidence/SKILL.md) | Create evidence-backed PRs: precise change range (base...head), architecture/behavior diagrams, risk mapping, and UI before/after screenshots (vendored from [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill), MIT) |
 | [create-issue-with-evidence](skills/create-issue-with-evidence/SKILL.md) | Create evidence-backed issues: verified problem statement, reproducible steps, plus code locations and a suggested fix for open-source projects |
 | [teaching-assistant](skills/teaching-assistant/SKILL.md) | Teaching-assistant mode, not a code generator: Socratic questioning, hints over answers, 2-5 line micro-examples; for coursework, textbook/course study, or tutor mode |
+| [lody-duo](skills/lody-duo/SKILL.md) | Lody host workflow: the current session keeps goal, authorization, and acceptance, and delegates investigation, implementation, and independent review to Lody Agent Roles via Lody MCP (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/lody-duo), MIT) |
 
 ## Install
 
