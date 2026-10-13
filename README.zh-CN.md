@@ -18,6 +18,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | [create-issue-with-evidence](skills/create-issue-with-evidence/SKILL.md) | 创建带证据的 issue：已验证的问题陈述、可复现步骤，开源项目附代码定位与修复建议 |
 | [teaching-assistant](skills/teaching-assistant/SKILL.md) | 助教模式而非代码生成器：苏格拉底式提问、提示优先于答案、2-5 行微示例，适用于课程作业、教材/课程学习或辅导模式 |
 | [lody-duo](skills/lody-duo/SKILL.md) | Lody 主持工作流：当前会话保留目标、授权与验收，通过 Lody MCP 把调研、实现和独立评审派给 Lody Agent Role（vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/lody-duo), MIT） |
+| [liability-review](skills/liability-review/SKILL.md) | 只读评审本地 diff 或已有 PR 的正确性、证据与维护者风险，结论须有具体失败路径；lody-duo 的 Review 角色依赖它（vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/liability-review), MIT） |
 
 ## Install
 

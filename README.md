@@ -18,6 +18,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | [create-issue-with-evidence](skills/create-issue-with-evidence/SKILL.md) | Create evidence-backed issues: verified problem statement, reproducible steps, plus code locations and a suggested fix for open-source projects |
 | [teaching-assistant](skills/teaching-assistant/SKILL.md) | Teaching-assistant mode, not a code generator: Socratic questioning, hints over answers, 2-5 line micro-examples; for coursework, textbook/course study, or tutor mode |
 | [lody-duo](skills/lody-duo/SKILL.md) | Lody host workflow: the current session keeps goal, authorization, and acceptance, and delegates investigation, implementation, and independent review to Lody Agent Roles via Lody MCP (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/lody-duo), MIT) |
+| [liability-review](skills/liability-review/SKILL.md) | Read-only review of a local diff or existing PR for correctness, evidence, and maintainer risk; findings need a concrete failure path; required by lody-duo's Review roles (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/liability-review), MIT) |
 
 ## Install
 
