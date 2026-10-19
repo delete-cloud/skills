@@ -20,6 +20,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | [lody-duo](skills/lody-duo/SKILL.md) | Lody host workflow: the current session keeps goal, authorization, and acceptance, and delegates investigation, implementation, and independent review to Lody Agent Roles via Lody MCP (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/lody-duo), MIT) |
 | [liability-review](skills/liability-review/SKILL.md) | Read-only review of a local diff or existing PR for correctness, evidence, and maintainer risk; findings need a concrete failure path; required by lody-duo's Review roles (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/liability-review), MIT) |
 | [critical-bug-finder](skills/critical-bug-finder/SKILL.md) | Scoped audit for critical implementation bugs only: crash, data corruption, security bypass, deadlock/race, or broken core logic; every finding needs a concrete trigger, real failure mode, and severe consequence (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/skills/critical-bug-finder), MIT) |
+| [confer](skills/confer/SKILL.md) | Coordinate Claude Code, Codex, Cursor Agent, Grok, Antigravity CLI, Copilot CLI, and Kimi Code through private local MCP rooms: seat selection, relays, independent investigation, and synthesized verified results (vendored from [delete-cloud/confer](https://github.com/delete-cloud/confer/tree/main/skills/confer)) |
 
 ## Install
 

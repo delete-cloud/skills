@@ -20,6 +20,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | [lody-duo](skills/lody-duo/SKILL.md) | Lody 主持工作流：当前会话保留目标、授权与验收，通过 Lody MCP 把调研、实现和独立评审派给 Lody Agent Role（vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/lody-duo), MIT） |
 | [liability-review](skills/liability-review/SKILL.md) | 只读评审本地 diff 或已有 PR 的正确性、证据与维护者风险，结论须有具体失败路径；lody-duo 的 Review 角色依赖它（vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/liability-review), MIT） |
 | [critical-bug-finder](skills/critical-bug-finder/SKILL.md) | 只审计致命实现 bug：崩溃、数据损坏、安全绕过、死锁/竞态或核心逻辑破坏；每条结论须有具体触发条件、真实失败模式与严重后果（vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/skills/critical-bug-finder), MIT） |
+| [confer](skills/confer/SKILL.md) | 通过本地私有 MCP room 编排 Claude Code、Codex、Cursor Agent、Grok、Antigravity CLI、Copilot CLI 与 Kimi Code：席位选择、relay、独立调研与汇总验证结论（vendored from [delete-cloud/confer](https://github.com/delete-cloud/confer/tree/main/skills/confer)） |
 
 ## Install
 

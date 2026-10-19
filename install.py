@@ -42,6 +42,7 @@ SKILLS = [
     "lody-duo",
     "liability-review",
     "critical-bug-finder",
+    "confer",
 ]
 AGENTS = ["kimi-cli", "codex", "devin"]  # kimi-cli needs the hosts.json override below
 APP_ID = "nmem"
