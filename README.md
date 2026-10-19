@@ -19,6 +19,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | [teaching-assistant](skills/teaching-assistant/SKILL.md) | Teaching-assistant mode, not a code generator: Socratic questioning, hints over answers, 2-5 line micro-examples; for coursework, textbook/course study, or tutor mode |
 | [lody-duo](skills/lody-duo/SKILL.md) | Lody host workflow: the current session keeps goal, authorization, and acceptance, and delegates investigation, implementation, and independent review to Lody Agent Roles via Lody MCP (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/lody-duo), MIT) |
 | [liability-review](skills/liability-review/SKILL.md) | Read-only review of a local diff or existing PR for correctness, evidence, and maintainer risk; findings need a concrete failure path; required by lody-duo's Review roles (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/.agents/skills/liability-review), MIT) |
+| [critical-bug-finder](skills/critical-bug-finder/SKILL.md) | Scoped audit for critical implementation bugs only: crash, data corruption, security bypass, deadlock/race, or broken core logic; every finding needs a concrete trigger, real failure mode, and severe consequence (vendored from [samzong/samzong](https://github.com/samzong/samzong/tree/main/skills/critical-bug-finder), MIT) |
 
 ## Install
 
