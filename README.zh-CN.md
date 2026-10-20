@@ -13,6 +13,7 @@ directories with [kitup](https://github.com/lathe-cli/kitup).
 | [ops-verification-gate](skills/ops-verification-gate/SKILL.md) | 高风险运维事件门禁：只读诊断 → 明确授权 → 单一最小变更 → 可回滚执行 → 独立真实状态验收 |
 | [production-project-iteration](skills/production-project-iteration/SKILL.md) | 非琐碎项目变更闭环：需求定界 → 受限委派 → 独立验证 → 受控部署 → 线上验收（PR/CI/GitOps/生产） |
 | [e2e-review-evidence](skills/e2e-review-evidence/SKILL.md) | 核对 e2e 覆盖与 PR review 结论：真实与替代路径、执行证据、失败定位及项目 review 门禁 |
+| [review-checklist](skills/review-checklist/SKILL.md) | 检查 diff 之外的影响：追踪锁等待到请求处理、代入实际规模核算 timeout/TTL、查看调用方与维护者历史，并给多席位分配不同检查方向 |
 | [confer-review](skills/confer-review/SKILL.md) | confer MCP 多席位评审编排：席位花名册（swe-2-max/grok-4.7/gpt-6-astra/opus-5-5）、消息模式、claude 席位失败模式与 fallback |
 | [create-pr-with-evidence](skills/create-pr-with-evidence/SKILL.md) | 创建带证据的 PR：精确变更范围（base...head）、架构/行为图、风险映射与 UI 前后截图（vendored from [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill), MIT） |
 | [create-issue-with-evidence](skills/create-issue-with-evidence/SKILL.md) | 创建带证据的 issue：已验证的问题陈述、可复现步骤，开源项目附代码定位与修复建议 |

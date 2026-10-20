@@ -36,6 +36,7 @@ SKILLS = [
     "ops-verification-gate",
     "production-project-iteration",
     "e2e-review-evidence",
+    "review-checklist",
     "create-pr-with-evidence",
     "create-issue-with-evidence",
     "teaching-assistant",
